@@ -1,4 +1,4 @@
-package com.example.jetpackcomposeinstagram
+package com.example.jetpackcomposeinstagram.login.ui
 
 import android.app.Activity
 import androidx.compose.foundation.Image
@@ -45,7 +45,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.jetpackcomposeinstagram.ui.theme.LoginViewModel
+import com.example.jetpackcomposeinstagram.R
 
 @Composable
 fun Footer(modifier: Modifier) {

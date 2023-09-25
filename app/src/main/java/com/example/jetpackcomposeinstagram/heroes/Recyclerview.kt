@@ -1,4 +1,4 @@
-package com.example.jetpackcomposeinstagram
+package com.example.jetpackcomposeinstagram.heroes
 
 import android.widget.Toast
 import androidx.annotation.DrawableRes
@@ -23,6 +23,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.jetpackcomposeinstagram.R
 
 @Composable
 fun SuperHeroView() {
@@ -116,7 +117,7 @@ fun SuperHeroWithSpecialControlsView() {
     }
 
 }
-
+/*
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun SuperHeroGridView() {
@@ -144,7 +145,7 @@ fun SuperHeroGridView() {
     *
     * */
 
-}
+}*/
 
 @Composable
 fun ItemHero(superHero: SuperHero, onItemSelected: (SuperHero) -> Unit) {
